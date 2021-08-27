@@ -1,0 +1,17 @@
+.conainer-fluid{
+    align-items: center;
+}
+
+.div-logo{
+    display: flex;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    margin: 5px 10px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: black;
+}
