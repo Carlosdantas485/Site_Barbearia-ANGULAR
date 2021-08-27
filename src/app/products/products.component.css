@@ -1,0 +1,36 @@
+body{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    width: 350px;
+    height: 250px;
+    border: 5px double black;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+li:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    border-color: rgb(71, 141, 0);
+}
+
+.img-product{
+    width: 90px;
+    height: 90px;
+}

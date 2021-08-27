@@ -1,10 +1,24 @@
+.navbar{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group{
+    padding: 5px;
+}
+
+
+
 .conainer-fluid{
-    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 75vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 .div-logo{
     display: flex;
 }
+
 .logo{
     width: 60px;
     height: 50px;
@@ -13,5 +27,33 @@
 
 footer{
     margin-top: 20px;
-    background-color: black;
+    background-color: #222222;
+
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mapa{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+p{
+    margin: 0;
+}
+
+@media (max-width: 768px){
+    .iframe{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    form{
+        width: 250px;
+    
+    }
 }
