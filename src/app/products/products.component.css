@@ -14,19 +14,23 @@ body{
 
 li{
     width: 350px;
-    height: 250px;
-    border: 5px double black;
+    height: 300px;
+    border: 5px double rgb(133, 133, 133);
     margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    box-shadow: 1px 4px 10px  black;
+}
+
+img{
+    margin-top: 15px;
 }
 
 li:hover{
     transform: scale(1.05);
-    transition: 0.3s;
+    transition: 0.5s;
     border-color: rgb(71, 141, 0);
 }
 

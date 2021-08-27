@@ -1,7 +1,6 @@
 body{
     padding: 15px;
     border-radius: 5px;
-  
 }
 
 form{
@@ -22,5 +21,26 @@ form{
 
 table{
     width: 200px;
+}
+
+@media (max-width: 768px){
+   
+    button{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    input{
+        width: 500px;
+    }
+    button{
+        width:500px
+    }
+    .form-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
