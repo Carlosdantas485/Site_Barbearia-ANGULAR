@@ -4,14 +4,18 @@ body{
     background-color: transparent;
 
 }
+
 .body{
-    width: 75vw;
+    width: 80vw;
     padding: 15px;
     border-radius: 5px;
     background-color: white;
 }
 
-
+div .container-fluid{
+    padding: 0%;
+    margin: 0%;
+}
 
 form{
     display: flex;
@@ -34,7 +38,10 @@ table{
 }
 
 @media (max-width: 768px){
-   
+    .body{
+        width: 100%;
+    }
+
     button{
         width: 100%;
     }
